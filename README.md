@@ -34,4 +34,5 @@ Unknown: [NET6_0, NET45] (5.0.6.0, 5.0.5.0, 6.0.0.0)
 
 # Notice
 
-It will log the version of the Archipelago.MultiClient.Net library, so its either `NET35`, `NET40`, `NET45`, `NETSTANDARD2_0`, `NET6_0` regardless of what framework version is actually used by the client
+* It will log the version of the Archipelago.MultiClient.Net library, so its either `NET35`, `NET40`, `NET45`, `NETSTANDARD2_0`, `NET6_0` regardless of what framework version is actually used by the client
+* This tool itzelf uses the Archipelago.MultiClient.Net, and will cause an `NET6_0` entry to be added under whatever game its connecting under
